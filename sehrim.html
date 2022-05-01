@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X -UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Memleket</title>
+    <link rel="stylesheet" href="stilldosyasi.css">
+  
+</head>
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="container">
+                <div class="content-article">
+                    <div class="row">
+                        <div class="col-md-12">
+                        </div>
+                    </div>
+                </div>
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <h2><a href="home.html"><img src="IMG_3187 (2).PNG" width="150" height="150"></a></h2>    
+                    </div>        
+                    <div class="header-menu">
+                        <ul>
+                            <li><a href="home.html">Anasayfa</a></li>
+                            <li><a href="#">Şehrim</a></li>
+                            <li><a href="#">Takımımız</a></li>
+                            <li><a href="iletisim.html">İletişim</a></li>
+                            <li><a href="#">Kullanıcı Girişi</a></li>
+                        </ul>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="slider">
+        <div id="box">
+            <img src="a.jpg" width="1000" height="500px">
+
+            <button class="prew" onclick="plusSlides()"><</button>
+            <button class="next" onclick="plusSlides()">></button>
+
+        </div>
+        <script src="js/index.js" type="text/javascript">
+            var slider_content =document.getElementById('box');
+            var image = ['a', 'b', 'c'];
+
+            var i = image.length;
+ 
+                    function nextImage(){
+                        if(i<image.length) {
+                            i= i+1;
+
+                            }else{
+                                i = 1;
+                            }
+                            slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+                        }
+
+                    function prewImage(){
+                        if (i<image.length+1 && i>1) {
+                            i= i-1;
+                        }else{
+                            i = image.length;
+                        }
+                        slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+                    }
+        </script>
+    </div>
+
+
+    <section id="about">
+        <div class="about">
+            <div class="container">
+                <div class="about-tittle">
+                    <h2>KÜLTÜR VE DOĞANIN TÜM RENKLERİYLE:SAKARYA</h2><br>
+                    <p >Kültürlerin kesişim noktası olan eğitim kenti ve modern bir kent olan Sakaryayı sıra dışı bir deneyim ile keşfetmeye hazır olun.‘Su Şehri’ olarak da anılan doğayla iç içe modern bir kent kimliğine sahip.Yeşilin her tonuyla misafirlerini karşılamakta.</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <div class="temizle">
+        <div class="img-container">
+            <img src="1.jpg" alt="" class="rsm" style="width:100%" height="290px">
+            <h3>Tarihi Çark</h3>
+            <p class="icerikText">Osmanlı döneminde camiler ve Adapazarı'na içme suyu taşımak amacıyla kullanılan ahşap değirmen.</p>
+        </div>
+        <div class="img-container">
+            <img src="2.jpg" alt="" class="rsm" style="width:100%;">
+            <h3>Kırantepe</h3>
+            <p class="icerikText">Benzersiz doğal güzellikler üstünde düzenlenen yamaç paraşütü etkinlikleri ile kendine çekiyor.</p>
+        </div>
+        <div class="img-container">
+            <img src="5.jpg" alt="" class="rsm" style="width:100%">
+            <h3>Acarlar Longozu</h3>
+            <p class="icerikText">İlerleyen yürüyüş yolları, donanımlı kamp alanları ve seyir terasları ile görülmeye değer güzellikte.</p>
+        </div>
+        <div class="temizle">
+            <div class="img-container">
+                <img src="3.jpg" alt="" class="rsm" style="width:100%">
+                <h3>Taraklı</h3>
+                <p class="icerikText">Tarihi ve doğal güzelliklerini korumuş en güzel ilçelerinden biri olan Taraklı,iki katlı konaklarıyla,Yunus Paşa Camii,Tarihi Han ve şifalı kaynak sularıyla Tarihi Hamam, 700 yıllık anıtsal çınar ağacıve Hisar Tepesi ile ünlü.</p>
+            </div>
+            <div class="img-container">
+                <img src="6.jpg" alt="" class="rsm" style="width:100%" height="300px">
+                <h3>Karasu Sahil Parkı</h3>
+                <p class="icerikText">Büyüleyici Karadeniz manzaraları arasında ilerleyen yürüyüş parkurları, yol üstü kafeleri, restoranları ve otelleri ile özellikle yaz aylarında çok hareketli olan sahil parkının plajında güneşlenin ve denizin tadını çıkarın.</p>
+            </div>
+            <div class="img-container">
+                <img src="4.jpg" alt="" class="rsm" style="width:100%" height="300px">
+                <h3>Poyrazlar Gölü</h3>
+                <p class="icerikText">Tabiat parkı ilan edilen gölünde at veya ATV safarilerine çıkarak bölgenin güzelliğini yakından görebilir; paintball sahası, mesire alanları, gölün çevresini saran iyi düzenlenmiş yürüyüş parkurları gibi birçok olanak bulabilirsiniz.</p>
+            </div>
+
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer">
+            <div class="page-tittle">
+                <h2>BİZE ULAŞIN</h2>
+                <div class="contact-content">
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <p>053266287**</p>
+                        <p>026422102**</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Sakarya/Adapazarı</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>skryaily54@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <ul>
+                        <li><a href="#" style="color:blueviolet">Anasayfa</a</li>
+                        <li><a href="#" style="color:blueviolet">Hakkımda</a></li>
+                        <li><a href="iletisim.html" style="color:blueviolet">İletişim</a></li>
+                        <li><a href="#" style="color: blueviolet">Kullanıcı Girişi</a></li>
+                    </ul>
+
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
 
