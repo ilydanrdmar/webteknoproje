@@ -1,0 +1,223 @@
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+    font-family:'Herr Von Muellerhoff', cursive; 
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+a,
+a:link,
+a:visited{
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+section,
+span,
+p{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.header-logo{
+    width: 100%;
+    max-width: 100px;
+    z-index: 99;
+    margin: -10px;
+    background-image: url("IMG_3187 (2).PNG"); 
+    width: 150;
+    height: 150;
+
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 27px;
+}
+a{
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.img-ssp{
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+.img-ssp p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin: 30px;
+}
+
+.contact{
+    margin-bottom: 20px;
+    color: black;
+    
+}
+#contact input[type="text"],
+            #contact input[type="email"],
+            #contact input[type="tel"],
+            #contact input[type="url"],
+            #contact textarea,
+            #contact button[type="submit"]
+            #contact button[type="reset"]
+             {
+              font: 100 12px/16px  'Poppins', sans-serif;
+            }
+
+            fieldset {
+              float: left;
+              border: medium none !important;
+              margin: 0 0 10px;
+              min-width: 40%;
+              padding: 0;
+              width: 100%;
+            }
+ 
+            #contact input[type="text"],
+            #contact input[type="text"],
+            #contact input[type="email"],
+            #contact input[type="url"],
+            #contact textarea {
+              
+              float: left;
+              width: 55%;
+              border: 1px solid #ccc;
+              margin: 0 0 5 25px;
+              padding: 10px;
+              margin-left: 23%;
+              margin-top: 5px;
+            }
+ 
+            #contact textarea {
+              float: left;
+              height: 100px;
+              max-width: 55%;
+              resize: none;
+
+            }
+
+            #contact button[type="submit"] {
+                cursor: pointer;
+                width: 25%;
+                border: none;
+                margin: 0 0 5px;
+                padding: 10px;
+                font-size: 15px;
+                margin-right: 18%;
+            }
+            #contact button[type="reset"] {
+                cursor: pointer;
+                width: 25%;
+                border: none;
+                margin: 0 0 5px;
+                padding: 10px;
+                font-size: 15px;
+                float: left;
+                margin-right: 5px;
+                margin-left: 23%;
+            
+            }
+            .footer-copyright{
+                text-align: center;
+                padding-left: 500px;
+                margin-top: 100px
+            }
+            #form label {
+                position:relative;
+                display: block;
+                min-height: 50px;
+                width: 100%;
+                float: left;
+                margin-left: 500px;
+            }
+            #form .error, #form .empty {
+                color: #FF0000;
+                display: none;
+                font-size: 11px;
+                line-height:14px;
+                width:auto;
+                position: absolute;
+                z-index: 999;
+                right: 5px;
+                top: 7px;
+                float:left;
+            }
+            
+            
+            #form .error-empty {
+                display:none;
+                float:left;
+            }
+            .btns {
+                margin-top: 50px;
+                padding-top: 22px;
+                margin-left: 680px;
+            
+            }
+            
+            .btns .btn {
+                margin: 0 !important;
+                padding-left: 20px;
+                padding-right: 20px;
+                cursor: pointer;
+                margin-left: 1000px;
+                font-size: 15px;
+            }
+            
+            .btns .btn {
+                margin-left: 90px !important;
+            }
+            #form input[type="text"],
+            #form input[type="password"] {
+              float: left;
+              border: 1px solid #ccc;
+            }
+            .img-container{
+               text-align: center;
+            }
+            .footer-copyright{
+                text-align: center;
+                margin-bottom: 25px;
+                padding-left: 400px;
+                
+            }
+
+            
+            
+            
+            
+            
+           
